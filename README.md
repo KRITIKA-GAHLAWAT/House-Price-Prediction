@@ -1,19 +1,19 @@
 # House-Price-Prediction
-# 🏡 House Price Prediction using Machine Learning
+#  House Price Prediction using Machine Learning
 
 This project builds a **Machine Learning regression model** to predict house prices using the **Ames Housing dataset**.  
 It applies **Exploratory Data Analysis (EDA), feature engineering, multiple ML models, hyperparameter tuning, and evaluation** to find the best-performing model.
 
 ---
 
-## 📂 Dataset
+## Dataset
 - Source: [Ames Housing Dataset](https://raw.githubusercontent.com/kirenz/datasets/master/ames.csv)  
 - Target variable: `Sale_Price`  
 - Features: 80+ attributes describing house size, location, and quality.
 
 ---
 
-## ⚙️ Workflow
+##  Workflow
 1. **Data Loading**  
    Load the Ames dataset from a public GitHub source.
 
@@ -56,7 +56,7 @@ It applies **Exploratory Data Analysis (EDA), feature engineering, multiple ML m
 
 ---
 
-## 📊 Results
+##  Results
 - Compares performance of all models.  
 - Performs hyperparameter tuning to select the **best model**.  
 - Example output (Predicted vs Actual):  
@@ -69,7 +69,7 @@ It applies **Exploratory Data Analysis (EDA), feature engineering, multiple ML m
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 1. Clone this repo:
    ```bash
    git clone https://github.com/your-username/house-price-prediction.git
@@ -82,7 +82,7 @@ Edit
 pip install -r requirements.txt
 Run all cells in the notebook.
 
-📦 Requirements
+## Requirements
 pandas
 
 numpy
@@ -97,14 +97,14 @@ xgboost
 
 joblib
 
-Install via:
+Instll via:
 
 bash
 Copy
 Edit
 pip install pandas numpy scikit-learn matplotlib seaborn xgboost joblib
 
-🏆 Key Takeaways
+## Key Takeaways
 
 Data preprocessing is crucial for handling missing values and categorical variables.
 
